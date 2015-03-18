@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Project 1</title>
+  <link rel="stylesheet" type="text/css" href="Project1_SB.css" />
+</head>
+
+<body>
+     <header><h1>Project 1: First Web Page</h1></header>
+     <nav><h2>Lesson 1: Basic of the Web/ HTML</h2></nav>
+
+     <section>
+      <h3>Basic of the Web</h3>
+      <p>Thinking like a programmer:</p> 
+      <ul>
+              <li>Procedural Thinking: clear/unambiguous instructions for computer to follow</li>
+              <li>Abstract Thinking: similarity used to avoid unnecessary repetition of work</li>
+              <li>System Thinking: breaking down into smaller pieces</li>
+              <li>Technology Empathy: what a computer is, how it works, what good/bad at doing</li>
+              <li>Debugging: Identifying cause of a program not to work-Bugs in code</li>
+            </ul>
+    <p>WWW is collection of HTML (Hypertext Markup Language). <br>HTML is the main doc type on the web. Anything can exist on the web.</p>
+          <ul>
+              <li>Text: what you see</li>
+              <li>Markups: what it looks like</li>
+              <li>Reference to other docs: e.g. Images or Video</li>
+              <li>Links to other pages</li>
+          </ul> 
+        <p>Elements: refer to everything within the open/close tags &lt;openingtag&#62; &#34;content&#34; &lt;&#47;closingtag&#62; </p>
+      <p>Tags: When you forget to close tags everything after tag is updated/changed until you add closing tag.</p>
+      <p>Whitespace: text on multiple lines. Single line unless you add break tag</p>
+      <p>Container Element: do nothing but contains stuff inside them. You can add style to your containers using CSS.</p>  
+      <p>HTML Attributes: Tags can have multiple attributes</p>
+      <p>You don&#96;t have to memorize each tag. Programers don&#96;t - Google is your friend!</p>
+
+     </section>
+    <aside>
+      <h3 class="center"> HTMLTag List</h3>
+      <p>&lt;tag attribute = &#34;value&#34;&#62;content &lt;&#47;tag&#62;</p>
+        <ul>
+            <li>Anchor tags &lt;a&#62; are for making links to  &lt;
+              attribute name = &#34;value&#34;&#62; content &lt;&#47;a&lt; 
+                <ul>
+                          <li>&lt;attribute name = &#34;value&#34;&#62; content &lt;&#47;tag&#62;: <em>for example</em>:<a href = https://www.pinterest.com> Pinterest </a>
+                          </li>
+                    </ul>
+                    </li>  
+            <li>Image tags &lt;img&#62; are for adding images 
+                  <ul>
+                        <li>
+                          Alt text is required for broken request or the blind
+                        </li>
+                        <li>
+                            Have no close tags. They are known as VOID tags
+                        </li>
+                   </ul>
+             </li>
+             <li>
+             <ul>
+                          <li>&lt;img src = &#34;URL&#34;&#62; alt =&#34;text&#34;: <em>for example</em> <img src= "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRZ-RpZPSF0FpiG5TiWE1qxcy1LCXEer0HDQjvr5mM6u2B9yHhQ8g" alt = "fork"  height="30" width="50">
+                          </li>
+                        </ul>
+              </li>
+          </ul>
+          <ul>
+                <li>&lt;br&#62; tag void tag/no close. Starts new line</li>
+                <li>&lt;p&#62; tag paragraph; needs a close tag. 
+                    <ul>
+                        <li>&lt;p&#62; Content &lt;&#47;p&#62;</li>
+                    </ul>
+                </li>    
+              </ul> 
+             <ul>
+              <li><em>Emphasis (italics)</em>: &lt;em&#62; &lt;&#47;em&#62; </li>
+             <li><b>Bold</b>: &lt;b&#62; &lt;&#47;b&#62; </li>
+           </ul>
+              <p>Inline vs Block:</p>
+               <ul>
+                   <li>Inline: &lt;br >; &lt;em >; &lt;img >; &lt;b >; &lt;a >; &lt;strong ></li>
+                   <li>Block: &lt;p >; &lt;div >; &lt;form > 
+                      <ul>
+                         <li>Block tags create an invisible box</li>
+                      </ul>
+                    </li>  
+               </ul>
+               <p>Span vs Div</p>
+                    <ul>
+                       <li>Span is inline: &lt;span&#62; text &lt;&#47;span&#62;
+                         <ul>
+                           <li>With CSS: &lt;span class = &#32;name&#32;&#62; text &lt;&#47;span&#62;</li>
+                         </ul>
+                       </li>
+                       <li>Div is block: &lt;div&#62; text &lt;&#47;div&#62;
+                         <ul>
+                           <li>With CSS: &lt;div class = &#34;name&#34;&#62; text &lt;&#47;div&#62;</li>
+                         </ul>
+                       </li>  
+                     </ul>
+    </aside>
+
+<nav><h2>Lesson 2: Structured Docs with HTML</h2></nav>
+
+<article>
+  <h3>Terms:</h3>
+                        
+                <p>HTML - HyperText Markup Language - the standard markup language used to create web pages.</p>
+                <p>CSS - <b><u>Cascading</u></b> Style Sheets - style sheet language used for describing the look and formatting of a document written in a markup language.</p>
+                <p>DOM - Document Object Model - a cross-platform and language-independent convention for representing and interacting with objects in HTML (and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.</p>
+            
+</article>
+<section>
+  <h3>How do you translate a visual design into website?</h3> 
+
+  <p>Think about it as a house:</p>
+                         <ul>
+                           <li>HTML: structure is the walls</li>
+                           <li>CSS: style of house: color of walls</li>
+                           <li>Javascript: interactive components: garage opener</li>
+                         </ul>
+            <p>The browser builds a tree like structure of the web page. Programmers refer to this as DOM</p>
+            <p>HTML and CSS are both languages. HTML controls the structure (syntax + rules) and CSS controls the style (syntax + rules). Basic word in HTML is a tag and the browser turns into elements that forms trees (knows because of the DOM). Each tag has a name or type and each tag can have an attribute. </p>
+            <p>All website are a compilation of boxes. We define boxes with &lt;div&#62; tags. Taking the design mock and breaking down the design into boxes or visual element. </p>
+            <p>Class attributes are like labels on boxes. They are there to remind you what is inside of them.</p>
+</section>
+
+<nav><h2>Lesson 3: CSS Style/HTML Structure</h2></nav>
+
+<section>
+  <h4>CSS - <b><u>Cascading</u></b> Style Sheets</h4> 
+                         <ul>
+                           <li>You can think about CSS as a search and replace tool</li>
+                           <li>Order matters: it matters where you define the rules and in what order they are applied:
+                                 <ul>
+                                   <li>The default style of a browser (different browsers have slightly different styles)</li>
+                                   <li>Stylesheet in a separate file (this is what you will be mostly using)</li>
+                                   <li>Stylesheet inside HTML (this can be done for small projects but is not ideal)</li>
+                                   <li>Inline style in an element (this can also be done but should be avoided)</li>
+                                 </ul>
+                           </li>      
+                           <li>Specifics matter: rules are applied not only to the elements they directly match, but also to all of those elements' child elements. More specific rule takes effect</li>
+                           <li>Inheritance prevents certain properties from being declared over and over again in a style sheet</li>
+                           <li>Whitespace between properties and selectors is ignored</li>
+                           <li>The way to format CSS for readability is to indent</li>
+                           <li>Everything on the webpage is a box. HTML elements are boxes and each box has 4 components. Hard to get the size of a box just right. Use percent&#96;s rather than pixels. Use and set box sizing attribute to border box</li>
+                           <li>Do not forget-- Divs are block elements (as opposed to inline), so by default they take up the entire width of a page. Adding rule display: flex; will override let divs appear next to each other</li>
+                           <li>Adding images: make folder and review naming convention for characters. Do not forget alt attribute</li>
+                         </ul>
+        <h4>Code, Test and Refine:</h4>
+                         <ul>
+                           <li>Look for natural boxes</li>
+                           <li>Look for repeated style and semantic elements</li>
+                           <li>Write HTML</li>
+                           <li>Apply styles (largest to smallest)</li>
+                           <li>Fix small things</li>
+                           <li>Test within DevTools (allows you to make changes without have to change code)
+                               <ul>
+                                 <li>Sources tab to see code.</li>
+                               </ul>
+                           </li>    
+                           <li>Compare your page to design. Does it resemble mock-up?</li>
+                         </ul>
+          <h4>Use these links to verify your HTML and CSS</h4>
+                         <ul>
+                           <li><a href = http://validator.w3.org/#validate_by_input> HTML Verification </a>
+                           </li>
+                           <li><a href = http://jigsaw.w3.org/css-validator/#validate_by_input> CSS Verification </a>
+                           </li>
+                         </ul>
+    </section>
+   </body>
+</html>
